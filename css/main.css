@@ -599,6 +599,26 @@ li.slick-active button {
     text-align: center;
     width: 100%;
 }
+/*CSS PAGINA INFORMAÇOES*/
+.container-principal-inform{
+    display: flex;
+    justify-content: center;
+    padding: 40px 80px;
+}
+.principal-inform-texto{
+    width: 30%;
+    padding: 50px;
+}
+.principal-inform-texto h1{
+    font-size: 50px;
+}
+.principal-inform-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
 /*Responsivo -. menor que 1180px*/
 @media screen and (max-width:1180px) {
     .menu-novo, .menu-redes{
@@ -647,7 +667,7 @@ li.slick-active button {
     .texto-inicial{
         width: 100%;
         padding: 0 0  20px 0; 
-        height: auto;       
+        height: auto;
     }
     .texto-inicial h2{
         margin: 10px 30px;
