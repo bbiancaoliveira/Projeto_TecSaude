@@ -521,9 +521,10 @@ li.slick-active button {
     justify-content: space-between; /*para ficar um em cada extremo da pagina*/
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: solid 1px #dfdfdf;
 }
 .logo-novo{
-    margin-left: 30px
+    margin-left: 15px
 }
 .menu-novo,.menu-redes{
     list-style: none;
@@ -531,7 +532,6 @@ li.slick-active button {
     flex-wrap: wrap;
     margin-right: 30px;
 }
-
 .menu-novo li a{
     padding: 10px;
     text-align: center;
@@ -541,11 +541,9 @@ li.slick-active button {
     color: #5c5c5c;
     font-size: 16px;
 }
-
 .menu-novo li a:hover{
     border-bottom: 1px solid #9272EA;
 }
-
 .menu-redes a{
     color: #6732d1;
     padding: 10px;
@@ -555,7 +553,6 @@ li.slick-active button {
     margin-left: 10px;
     font-size: 16px;
 }
-
 .mobile-menu-icon{
     display: none;
 }
@@ -639,7 +636,7 @@ li.slick-active button {
         border: none;    
     }
     .icon{
-        background-color: #9272EA;
+        background-color: #6732d1;
         width: 30px;    
     }
     .mobile-menu{
@@ -724,6 +721,7 @@ li.slick-active button {
     }
     .consulta-gratuita img{
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     .bloco-flex-cards{
         width: 80%;
@@ -820,7 +818,7 @@ li.slick-active button {
     .container-video-principal{  
         width: 100%;
         margin-top: 0;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .texto-inicial{
         width: 100%;
